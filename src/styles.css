@@ -1,0 +1,59 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+hr {
+  width: 80%;
+  margin-top: 30px;
+  color: gray;
+}
+
+button {
+  border-radius: 5px;
+  padding: 5px 10px;
+  transition: 0.3s all;
+  background-color: #2ec4b6;
+  margin-left: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+.todo-cmp {
+  height: 100vh;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 0.49343487394957986) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}
+.input-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-area button {
+  margin-top: 5px;
+  padding: 10 10px;
+}
+.input-area input {
+  width: 60%;
+  border-style: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.todo-list {
+  display: flex;
+  align-items: center;
+}
